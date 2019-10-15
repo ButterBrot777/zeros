@@ -1,8 +1,7 @@
 module.exports = function zeros(expression) {
     let factorial = expression.split('*');
 
-    let symbols = [];
-    let arr = [];
+    let chooseFactorial = [];
     factorial.forEach(function (elem) {
         chooseFactorial.push(elem.split('!'));
     });
